@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8476233f-2301-405f-8808-694b03957f6f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/LearningNew.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learning/Colorgram_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learning/DrawingBoard/main.py" afterDir="false" />
+    <list default="true" id="8476233f-2301-405f-8808-694b03957f6f" name="Changes" comment="- Added food on the field for a snake game">
+      <change afterPath="$PROJECT_DIR$/Learning/PingPong/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Learning/PingPong/players.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Learning/Slicing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +36,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.ClassInheritance.executor": "Run",
+    "Python.RacingGame.executor": "Run",
+    "Python.Slicing.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -48,6 +48,8 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -68,14 +70,80 @@
       <updated>1759792516536</updated>
       <workItem from="1759792517589" duration="46000" />
       <workItem from="1759792752525" duration="161000" />
-      <workItem from="1759955010474" duration="3740000" />
+      <workItem from="1759955010474" duration="14417000" />
+      <workItem from="1760054009841" duration="53000" />
+      <workItem from="1760278244415" duration="9000" />
+      <workItem from="1760278262553" duration="10974000" />
     </task>
+    <task id="LOCAL-00001" summary="- Made a small drawer with a Turtle module.&#10;- Explanation on the controls:&#10;&quot;W&quot; - (pendown) to leave a drawing line behind you.&#10;&quot;S&quot; - (penup) not leaving a trace&#10;&quot;A&quot; - turn left&#10;&quot;D&quot; - turn right&#10;&quot;space&quot; - move forward">
+      <option name="closed" value="true" />
+      <created>1759963369144</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1759963369144</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Racing game with turtles&#10;&#10;- Placing turtles on the left side of the screen&#10;- Picking random speed for each of them during the race&#10;- After reaching the right side of the screen - finishing the race&#10;- Printing a &quot;f&quot;{winner_color} wins!&quot;&quot; message in the end.  &#10;&#10;Knowing issues:&#10;macOS - window with the game is frozen when you run the code.">
+      <option name="closed" value="true" />
+      <created>1760006497998</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1760006497998</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Created a new project (Snake game)&#10;&#10;What it currently does:&#10;- The snake exist&#10;- It can move forward&#10;- Turtles are not cutting while moving forward">
+      <option name="closed" value="true" />
+      <created>1760053253730</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1760053253730</updated>
+    </task>
+    <task id="LOCAL-00004" summary="- Added examples with explanations about Class inheritance">
+      <option name="closed" value="true" />
+      <created>1760531282145</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1760531282145</updated>
+    </task>
+    <task id="LOCAL-00005" summary="- Added food on the field for a snake game">
+      <option name="closed" value="true" />
+      <created>1760535175990</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1760535175990</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="- Made a small drawer with a Turtle module.&#10;- Explanation on the controls:&#10;&quot;W&quot; - (pendown) to leave a drawing line behind you.&#10;&quot;S&quot; - (penup) not leaving a trace&#10;&quot;A&quot; - turn left&#10;&quot;D&quot; - turn right&#10;&quot;space&quot; - move forward" />
+    <MESSAGE value="Racing game with turtles&#10;&#10;- Placing turtles on the left side of the screen&#10;- Picking random speed for each of them during the race&#10;- After reaching the right side of the screen - finishing the race&#10;- Printing a &quot;f&quot;{winner_color} wins!&quot;&quot; message in the end.  &#10;&#10;Knowing issues:&#10;macOS - window with the game is frozen when you run the code." />
+    <MESSAGE value="Created a new project (Snake game)&#10;&#10;What it currently does:&#10;- The snake exist&#10;- It can move forward&#10;- Turtles are not cutting while moving forward" />
+    <MESSAGE value="- Added examples with explanations about Class inheritance" />
+    <MESSAGE value="- Added food on the field for a snake game" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Added food on the field for a snake game" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/LearningNew$main.coverage" NAME="main Coverage Results" MODIFIED="1759957011957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learning/DrawingBoard" />
+    <SUITE FILE_PATH="coverage/LearningNew$Slicing.coverage" NAME="Slicing Coverage Results" MODIFIED="1760535915967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learning" />
+    <SUITE FILE_PATH="coverage/LearningNew$RacingGame.coverage" NAME="RacingGame Coverage Results" MODIFIED="1760006308245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learning" />
+    <SUITE FILE_PATH="coverage/LearningNew$main.coverage" NAME="main Coverage Results" MODIFIED="1760560701251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learning/PingPong" />
+    <SUITE FILE_PATH="coverage/LearningNew$ClassInheritance.coverage" NAME="ClassInheritance Coverage Results" MODIFIED="1760524739011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learning" />
   </component>
 </project>
