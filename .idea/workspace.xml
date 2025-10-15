@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8476233f-2301-405f-8808-694b03957f6f" name="Changes" comment="- Added food on the field for a snake game">
-      <change afterPath="$PROJECT_DIR$/Learning/PingPong/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learning/PingPong/players.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learning/Slicing.py" afterDir="false" />
+    <list default="true" id="8476233f-2301-405f-8808-694b03957f6f" name="Changes" comment="- Added a PingPong project&#10;- Added players.py and main.py&#10;&#10;players.py:&#10;- Created a class &quot;Players&quot;&#10;- Created 2 functions for player 1 and player 2&#10;- Each function creates a turtle and they both goes to an opposite side of the screen.&#10;&#10;main.py:&#10;- Created a screen&#10;- Imported players.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +20,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main_new" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -40,6 +42,7 @@
     "Python.RacingGame.executor": "Run",
     "Python.Slicing.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.players.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -73,7 +76,7 @@
       <workItem from="1759955010474" duration="14417000" />
       <workItem from="1760054009841" duration="53000" />
       <workItem from="1760278244415" duration="9000" />
-      <workItem from="1760278262553" duration="10974000" />
+      <workItem from="1760278262553" duration="12771000" />
     </task>
     <task id="LOCAL-00001" summary="- Made a small drawer with a Turtle module.&#10;- Explanation on the controls:&#10;&quot;W&quot; - (pendown) to leave a drawing line behind you.&#10;&quot;S&quot; - (penup) not leaving a trace&#10;&quot;A&quot; - turn left&#10;&quot;D&quot; - turn right&#10;&quot;space&quot; - move forward">
       <option name="closed" value="true" />
@@ -115,18 +118,69 @@
       <option name="project" value="LOCAL" />
       <updated>1760535175990</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="- Added a PingPong project&#10;- Added players.py and main.py&#10;&#10;players.py:&#10;- Created a class &quot;Players&quot;&#10;- Created 2 functions for player 1 and player 2&#10;- Each function creates a turtle and they both goes to an opposite side of the screen.&#10;&#10;main.py:&#10;- Created a screen&#10;- Imported players.py">
+      <option name="closed" value="true" />
+      <created>1760561044652</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1760561044652</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -138,12 +192,14 @@
     <MESSAGE value="Created a new project (Snake game)&#10;&#10;What it currently does:&#10;- The snake exist&#10;- It can move forward&#10;- Turtles are not cutting while moving forward" />
     <MESSAGE value="- Added examples with explanations about Class inheritance" />
     <MESSAGE value="- Added food on the field for a snake game" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Added food on the field for a snake game" />
+    <MESSAGE value="- Added a PingPong project&#10;- Added players.py and main.py&#10;&#10;players.py:&#10;- Created a class &quot;Players&quot;&#10;- Created 2 functions for player 1 and player 2&#10;- Each function creates a turtle and they both goes to an opposite side of the screen.&#10;&#10;main.py:&#10;- Created a screen&#10;- Imported players.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Added a PingPong project&#10;- Added players.py and main.py&#10;&#10;players.py:&#10;- Created a class &quot;Players&quot;&#10;- Created 2 functions for player 1 and player 2&#10;- Each function creates a turtle and they both goes to an opposite side of the screen.&#10;&#10;main.py:&#10;- Created a screen&#10;- Imported players.py" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LearningNew$Slicing.coverage" NAME="Slicing Coverage Results" MODIFIED="1760535915967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learning" />
     <SUITE FILE_PATH="coverage/LearningNew$RacingGame.coverage" NAME="RacingGame Coverage Results" MODIFIED="1760006308245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learning" />
-    <SUITE FILE_PATH="coverage/LearningNew$main.coverage" NAME="main Coverage Results" MODIFIED="1760560701251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learning/PingPong" />
+    <SUITE FILE_PATH="coverage/LearningNew$players.coverage" NAME="players Coverage Results" MODIFIED="1760560834380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learning/PingPong" />
+    <SUITE FILE_PATH="coverage/LearningNew$main.coverage" NAME="main Coverage Results" MODIFIED="1760560838875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learning/PingPong" />
     <SUITE FILE_PATH="coverage/LearningNew$ClassInheritance.coverage" NAME="ClassInheritance Coverage Results" MODIFIED="1760524739011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learning" />
   </component>
 </project>
