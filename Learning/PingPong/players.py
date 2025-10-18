@@ -1,9 +1,12 @@
+from enum import nonmember
 from turtle import Turtle, Screen
 import random
 
 class Players:
     def __init__(self):
-        pass
+        self.player1 = None
+        self.player2 = None
+
     def pl1(self):
         self.player1 = Turtle(shape="square")
         self.player1.color("white")
