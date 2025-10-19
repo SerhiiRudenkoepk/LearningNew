@@ -1,6 +1,8 @@
+import turtle
 from turtle import Turtle, Screen
 import random
 import players
+import ball
 
 
 screen = Screen()
@@ -8,7 +10,7 @@ screen.setup(800, 600)
 screen.bgcolor("black")
 screen.title("Pong")
 screen.tracer(0)
-
+ball = ball.Ball()
 
 # Calling out class and functions from players.py
 pong_players = players.Players()
@@ -34,6 +36,14 @@ screen.onkey(key="Down", fun=go_down)
 game_on = True
 while game_on:
     screen.update()
+    ball.move()
+
+    # Collision
+    if ball.ycor() > 280 or ball.ycor() < -280:
+        ball.bounce()
+
+
+
 
 
 screen.exitonclick()
