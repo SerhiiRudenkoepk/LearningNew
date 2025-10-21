@@ -66,3 +66,15 @@ abs_num = [abs(i) for i in all_nums]
 # OR
 abs_num = [i for i in all_nums if i > 0]
 # we're adding every number what is higher than 0
+
+'''
+Now we will learn about normal super() and __init__()
+'''
+class User():
+    def __init__(self, email, username):
+        self.email = email
+        self.username = username
+
+class Admin(User):
+    def __init__(self, email, username):
+        super().__init__(email, username) # with this we're automatically calling out our super (parent class User).
