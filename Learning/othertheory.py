@@ -227,3 +227,17 @@ print(my_cricle.area())
  All vehicles can "move",
  but how they move (wheels, wings, tracks) is different
 '''
+
+
+# Decorator
+def decoration_function(original_fn):
+    def wrapper_function():
+        result = original_fn()
+
+        return result
+
+
+def my_function():
+    print("This is my function")
+
+
