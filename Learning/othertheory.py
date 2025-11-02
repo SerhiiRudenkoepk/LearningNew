@@ -240,4 +240,83 @@ def decoration_function(original_fn):
 def my_function():
     print("This is my function")
 
+# Decorator - is a function that takes another function and adds NEW behavior to it,
+# without changing its original code.
+# Example 2 (Adding decorator BEFORE the main func)
 
+#  we "WRAP" our donut with this decoration
+
+def chocolate_glaze(func):
+    def wrapper():
+        print("Adding chocolate")
+        func() //
+        print("sprinkling nuts")
+    return wrapper
+
+# Then we "WRAP" our donut with this decoration
+# Naturally our wrap will be above, because code is reading things from top to bottom. d
+@chocolate_glaze
+def donut():
+    print("This is donut")
+
+
+# Example 3 adding AFTER the main func
+
+def say_hello():
+    print("Hello")
+
+def decorator(func):  # func here is a simple parameter, like 'x' or 'y' or 'name'. But we name it func
+# because we expect that there will be a func
+    def wrapper():
+        print("Before function runs")
+        func() # we're calling the main function "say_hello"
+        print("After function runs")
+    return wrapper
+
+say_hello = decorator(say_hello) # applying decorator manually
+
+say_hello()
+
+# Example 4
+
+def decorator_function(original_fn):
+    def wrapper(*args, **kwargs): # we're making this wrapper unique
+        # Some actions before executions of the original_fn
+        # *args = “take all unnamed arguments and put them in a tuple”
+        # **kwargs = “take all named arguments and put them in a dictionary”
+        print("Before function runs")
+
+        result = original_fn(*args, **kwargs) # we're calling my_function here
+        print("After function runs")
+        return result
+    return wrapper
+
+@decorator_function
+def my_function(a, b):
+    print("This is my function")
+    return (a, b)
+
+
+
+
+''' 
+How to work with FILES in Python
+There's 2 libs what ca be used: os and pathlib 
+'''
+# OS example
+from os import path
+
+print(path.abspath('.'))
+# /User/username/Desktop/python
+
+print(type(path))
+# <class 'module'>
+
+#pathlib example
+from pathlib import Path
+
+print(Path('.').absolute())
+# /User/username/Desktop/python
+
+print(type(path))
+# <class 'type'>

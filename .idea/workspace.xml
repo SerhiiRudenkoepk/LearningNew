@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8476233f-2301-405f-8808-694b03957f6f" name="Changes" comment="&#10;- Added new info on Python theory with examples (OOP)">
+      <change afterPath="$PROJECT_DIR$/Learning/JSON_Theory.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning/othertheory.py" beforeDir="false" afterPath="$PROJECT_DIR$/Learning/othertheory.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +97,9 @@
       <workItem from="1760871230356" duration="10272000" />
       <workItem from="1761043414371" duration="1111000" />
       <workItem from="1761767575935" duration="8003000" />
+      <workItem from="1761844375126" duration="11884000" />
+      <workItem from="1762034819530" duration="118000" />
+      <workItem from="1762080710277" duration="9902000" />
     </task>
     <task id="LOCAL-00001" summary="- Made a small drawer with a Turtle module.&#10;- Explanation on the controls:&#10;&quot;W&quot; - (pendown) to leave a drawing line behind you.&#10;&quot;S&quot; - (penup) not leaving a trace&#10;&quot;A&quot; - turn left&#10;&quot;D&quot; - turn right&#10;&quot;space&quot; - move forward">
       <option name="closed" value="true" />
@@ -176,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761780913928</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="&#10;- Added new info on Python theory with examples (OOP)">
+      <option name="closed" value="true" />
+      <created>1761948477175</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1761948477175</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
