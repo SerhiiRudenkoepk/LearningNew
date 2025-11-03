@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8476233f-2301-405f-8808-694b03957f6f" name="Changes" comment="&#10;- Added new info on Python theory with examples (OOP)">
-      <change afterPath="$PROJECT_DIR$/Learning/JSON_Theory.py" afterDir="false" />
+    <list default="true" id="8476233f-2301-405f-8808-694b03957f6f" name="Changes" comment="&#10;- Added more Python theory&#10;- Added theory about JSON">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Learning/othertheory.py" beforeDir="false" afterPath="$PROJECT_DIR$/Learning/othertheory.py" afterDir="false" />
     </list>
@@ -99,7 +98,8 @@
       <workItem from="1761767575935" duration="8003000" />
       <workItem from="1761844375126" duration="11884000" />
       <workItem from="1762034819530" duration="118000" />
-      <workItem from="1762080710277" duration="9902000" />
+      <workItem from="1762080710277" duration="11315000" />
+      <workItem from="1762117708820" duration="3725000" />
     </task>
     <task id="LOCAL-00001" summary="- Made a small drawer with a Turtle module.&#10;- Explanation on the controls:&#10;&quot;W&quot; - (pendown) to leave a drawing line behind you.&#10;&quot;S&quot; - (penup) not leaving a trace&#10;&quot;A&quot; - turn left&#10;&quot;D&quot; - turn right&#10;&quot;space&quot; - move forward">
       <option name="closed" value="true" />
@@ -189,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761948477175</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="&#10;- Added more Python theory&#10;- Added theory about JSON">
+      <option name="closed" value="true" />
+      <created>1762112342445</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1762112342445</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,7 +268,8 @@
     <MESSAGE value="- Added more things to Ping Pong project&#10;- Added new info on Python theory with examples" />
     <MESSAGE value="&#10;- Added new info on Python theory with examples" />
     <MESSAGE value="&#10;- Added new info on Python theory with examples (OOP)" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;- Added new info on Python theory with examples (OOP)" />
+    <MESSAGE value="&#10;- Added more Python theory&#10;- Added theory about JSON" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;- Added more Python theory&#10;- Added theory about JSON" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LearningNew$ball.coverage" NAME="ball Coverage Results" MODIFIED="1760872945941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learning/PingPong" />

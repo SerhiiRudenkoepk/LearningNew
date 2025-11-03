@@ -320,3 +320,122 @@ print(Path('.').absolute())
 
 print(type(path))
 # <class 'type'>
+
+
+# path to a current directory
+
+from pathlib import Path
+
+print(Path.cwd())
+# /User/username/Desktop/python
+
+
+# creating paths on Mac and Linux
+print(Path('usr').joinpath('local').joinpath('bin')) # joinpath - creates a new path 
+# usr/local/bin
+
+print(Path('usr') / 'local' / 'bin')
+# usr/local/bin
+
+
+# Check if the file or directory is present
+
+print(Path('main.py').exists())
+# True
+
+print(Path('/Users/usernamee/Desktop').exists())
+# True
+
+print(Path('other.py').exists()) # exists - checks if the file/directory exists
+# False
+
+
+# Check if it's a file or directory
+
+print(Path('main.py').is_file()) # check if it's a file
+print(Path('/Users/username/Desktop').is_dir()) # check if it's a directory
+
+# List of items/dirs with a loop
+
+for f in Path('.').iterdir():  # it will show everything what is in the folder
+    print(f)
+
+
+# HOW TO READ/WRITE FILES
+
+# Read
+# test.txt - the code with think that this file will be placed in the same directory as your code
+with open('test.txt') as test_file:
+    print(test_file.read()) # read - will read everything what is in the file
+    # function 'open' is now connected to 'test_file'
+    # OR we can use readlines and put everything in the List
+    print(test_file.readlines())
+    # ['This is a test file\n',
+    #  'Another line in the test file'] '
+
+# WRITE in file
+with open('new_txt.txt', 'w') as new_file:
+    new_file.write("This is the text what we will put in the new file\n")
+
+with open('new_txt.txt') as new_file:
+    print(new_file.read())
+    # first line in the new file
+
+with open('new_txt.txt', 'a') as new_file:
+    new_file.write("Second new line in the new file\n")
+
+with open('new_txt.txt') as new_file:
+    print(new_file.read())
+    #first line in the file
+    #second line in the new file
+
+# Deleting files
+print(Path('new_txt.txt').exists()) # we're checking if the file is there
+# True
+Path('new_txt.txt').unlink() # unlink - removes the file
+
+
+# How to create a ZIP archive
+from zipfile import ZipFile
+from pathlib import Path
+
+Path('my_files').mkdir() # created a directory
+
+with open("my_files/first.txt", "w") as my_file:  # we created a file
+    my_file.write("This is the text what we will put in the new file\n")
+
+with open("my_files/second.txt", "w") as my_file:  # we created a file
+    my_file.write("This is the text what we will put in the second new file\n")
+
+with ZipFile("my_files/my_file.zip", "w") as my_zip:
+    print(my_zip)
+    for file in Path('my_files').iterdir():
+        my_zip.write(file) # adds every file to archive cuz of the for loop
+
+# Unpacking ZIP
+
+with ZipFile("my_files/my_file.zip", "r") as my_zip:
+    my_zip.extractall('my_files_unzipped') # extract everything, we can also create a directory
+    print(my_zip.infolist()) # info about the archive
+
+# Work with CSV files
+
+import csv
+
+with open('test.csv', 'w') as csvfile:
+    writer = csv.writer(csvfile)
+    writer.writerow(["user_id", "user_name", "comments_qty"]) # write a row.
+    writer.writerow(["5132", "Artem", "3312"])
+
+# Searching words in the code
+
+import re
+
+my_string = "My name is Luria."
+res = re.search(r"Luria", my_string) # we're searching the word (pattern) in the my_string
+# OR we can also search like this
+res = re.search(r"L...a", my_string) # L...a - means that it will search for a word what starts with L and ends with a.
+# "^L..a" - ^ searching at the beginning of the line
+# "L...a$" - $ - searching at the end of the line
+# "^M.*name' starts with M at the beginning of the line, has any symbols in between and ends on '-name'. . (dot) - any symbol
+# "L...a\.$" - means we're searching for smth what starts L and ends with a and also ends with '.' (dot) in the end of the line.
