@@ -38,9 +38,17 @@ while game_on:
     screen.update()
     ball.move()
 
-    # Collision
+    # Collision with top/bottom walls
     if ball.ycor() > 280 or ball.ycor() < -280:
-        ball.bounce()
+        ball.bounce_y()
+    
+    # Collision with paddles
+    if ball.is_collided_with(pong_players.player1) or ball.is_collided_with(pong_players.player2):
+        ball.bounce_x()
+    
+    # Collision with left/right walls (ball goes out of bounds)
+    if ball.xcor() > 380 or ball.xcor() < -380:
+        ball.bounce_x()
 
 
 
